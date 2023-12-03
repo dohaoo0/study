@@ -7,84 +7,115 @@
 </head>
 
 <body>
-    <div>
-        <hr>
-        <h1> Market Research Survey</h1>
-        <p> Please take a few moments to complete this satisfaction survey </p>
-        <hr style="border-top: 1px dotted black">
-    </div>
+    <form action="action_page.php" target="_self">
+        <div>
+            <hr>
+            <h1> Market Research Survey</h1>
+            <p> Please take a few moments to complete this satisfaction survey </p>
+            <hr style="border-top: 1px dotted black">
+        </div>
 
-    <div>
-        <h3> Gender</h3>
-        <input type="radio" name="gender" checked> Male<br>
-        <input type="radio" name="gender"> Female<br>
-    </div>
+        <div>
+            <label for="age">What is your age range?</label><br>
+            <select id="age" name="age">
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+            </select>
 
-    <div>
-        <h3> Which of the following products have you purchased in the last 2 months. Please check all that apply.</h3>
-        <input type="checkbox" name="products" checked> Product 1 <br>
-        <input type="checkbox" name="products"> Product 2 <br>
-        <input type="checkbox" name="products"> Product 3 <br>
-    </div>
+        </div>
 
-    <div>
-        <h3> How often would you use our new product?</h3>
-        <input type="radio" name="often" checked> Daily<br>
-        <input type="radio" name="often"> Weekly<br>
-        <input type="radio" name="often"> Monthly<br>
-    </div>
+        <div>
+            <label for="income">What is your yearly income range?</label><br>
+            <select id="income" name="income">
+                <option value="$0">$0</option>
+                <option value="$5000">$5000</option>
+                <option value="$10000">$10000</option>
+                <option value="$15000">$15000</option>
+                <option value="$20000">$20000</option>
+                <option value="$25000">$25000</option>
+            </select>
 
-    <div>
-        <h3>What would you pay for the new product? </h3>
-        $<input type="text" style="width: 80px">. <input type="text" style="width: 30px">
-        <br><span style="margin-right: 50px; margin-left:10px"> Dollars</span>Cents
-    </div>
+        </div>
 
-    <div>
-        <h3>What features would you like to see in the new product. </h3>
-        <iframe style="height:200px;width:500px" title="Iframe Example"></iframe>
-    </div>
+        <div>
+            <h3> Gender</h3>
+            <input type="radio" name="gender" checked> Male<br>
+            <input type="radio" name="gender"> Female<br>
+        </div>
 
-    <div>
-        <h3> Please rate your level of agreement with the following statements.</h3>
-        <table>
-            <tr>
-                <th> </th>
-                <th> Strongly Disagree</th>
-                <th> Disagree</th>
-                <th> Agree</th>
-                <th> Strongly Agree</th>
-            </tr>
+        <div>
+            <h3> Which of the following products have you purchased in the last 2 months. Please check all that apply.
+            </h3>
+            <input type="checkbox" name="products" checked> Product 1 <br>
+            <input type="checkbox" name="products"> Product 2 <br>
+            <input type="checkbox" name="products"> Product 3 <br>
+        </div>
 
-            <tr>
-                <th> Our products are priced fairly</th>
-                <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>1</td>
-                <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>2</td>
-                <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>3</td>
-                <td style="text-align: center"> <input type="radio" name="rate_priced" checked> <br>4</td>
-            </tr>
+        <div>
+            <h3> How often would you use our new product?</h3>
+            <input type="radio" name="often" checked> Daily<br>
+            <input type="radio" name="often"> Weekly<br>
+            <input type="radio" name="often"> Monthly<br>
+        </div>
 
-            <tr>
-                <th> Our products are high quality.</th>
-                <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>1</td>
-                <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>2</td>
-                <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>3</td>
-                <td style="text-align: center"> <input type="radio" name="rate_quality" checked> <br>4</td>
+        <div>
+            <h3>What would you pay for the new product? </h3>
+            $<input type="text" style="width: 80px">. <input type="text" style="width: 30px">
+            <br><span style="margin-right: 50px; margin-left:10px"> Dollars</span>Cents
+        </div>
 
-            </tr>
+        <div>
+            <h3>What features would you like to see in the new product. </h3>
+            <iframe style="height:200px;width:500px" title="Iframe Example"></iframe>
+        </div>
 
-            <tr>
-                <th> You would recommend our product to a friend or coworker.</th>
-                <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>1</td>
-                <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>2</td>
-                <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>3</td>
-                <td style="text-align: center"> <input type="radio" name="rate_recommend" checked> <br>4</td>
-            </tr>
+        <div>
+            <h3> Please rate your level of agreement with the following statements.</h3>
+            <table>
+                <tr>
+                    <th> </th>
+                    <th> Strongly Disagree</th>
+                    <th> Disagree</th>
+                    <th> Agree</th>
+                    <th> Strongly Agree</th>
+                </tr>
 
-        </table><br>
-        
-        <button type="button">Submit</button>
-    </div>
+                <tr>
+                    <th> Our products are priced fairly</th>
+                    <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>1</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>2</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_priced"> <br>3</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_priced" checked> <br>4</td>
+                </tr>
+
+                <tr>
+                    <th> Our products are high quality.</th>
+                    <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>1</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>2</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_quality"> <br>3</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_quality" checked> <br>4</td>
+
+                </tr>
+
+                <tr>
+                    <th> You would recommend our product to a friend or coworker.</th>
+                    <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>1</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>2</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_recommend"> <br>3</td>
+                    <td style="text-align: center"> <input type="radio" name="rate_recommend" checked> <br>4</td>
+                </tr>
+
+            </table><br>
+
+            <button type="button" onclick="alert(Done)">Submit</button>
+        </div>
+
+    </form>
 
 </body>
 
