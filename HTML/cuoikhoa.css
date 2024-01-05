@@ -1,0 +1,81 @@
+.fixed{
+    position: fixed;
+    top: 5px; 
+    left: 20px; 
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: black;
+}
+.text-image{
+    background: url("https://cdn.tgdd.vn/Files/2020/12/26/1316150/thumb_800x501.jpg");
+    width:1200px;
+    height:500px;
+    position:relative;
+    top:35px
+}
+.text-image p{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size:20px;
+    color:aliceblue;
+}
+.text-image a{
+    border: 1px solid #a9a9a9;
+    color:aliceblue
+}
+.center{
+    text-align: center;
+    text-transform: uppercase;
+    top:auto
+}
+
+.table-about{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.image-with-text img {
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    max-height: 70%; 
+    top: 50%; 
+    left: 75%; 
+    transform: translate(-50%, -50%);
+}
+.image-with-text p {
+    font-size:20px;
+    line-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.image-with-text{
+    width: 100%;
+    height: 400px;
+    background-color:darkgray;
+    position: relative;
+}
+.th{
+    border: 1px solid #a9a9a9
+}
+.text1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text2{
+    font-size: 10px;
+}
+.text3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table-work img{
+    width:100%;
+}
