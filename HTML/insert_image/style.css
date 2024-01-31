@@ -1,0 +1,71 @@
+
+/*CSS anhr 1*/
+.text-image{
+    background: url("https://cdn.tgdd.vn/Files/2020/12/26/1316150/thumb_800x501.jpg");
+    width:100%;
+    position:relative;
+    height:650px;
+    padding:0;
+    
+}
+
+p{
+    position:absolute;
+    top:50%;
+    height: 30px;
+    line-height: 40px; 
+    font-size: 20px;
+    color:aliceblue;
+}
+
+p a{
+    border:2px solid #555;
+    padding:10px;
+    background-color:blueviolet;
+}
+
+strong{
+    font-size: 40px;
+}
+
+/* CSS cho ảnh 2*/
+
+.text-center{
+    background-color: bisque;
+    height:500px;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    color:orange;
+    left:40%;
+    top:20px
+}
+
+table{
+    color:orange;
+    border-collapse: collapse;
+    display: flex;
+    height: 200px;
+    position:absolute;
+    top:100px;
+    left:40%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color:rgb(143, 117, 109);
+}
+
+img{
+    width: 200px;
+    height:150px;
+    position:absolute;
+}
+

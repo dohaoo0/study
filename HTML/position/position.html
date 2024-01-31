@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar_wr">
+            <div class="box logo"></div>
+            <p>hihihi</p>
+            <div class="box home"></div>
+            <div class="box search"></div>
+        </div>
+    </div>
+    <p>* Đây là 1 vài cách hiểu đơn giản để mọi người nhớ lâu hơn, ngày mai nếu mn cần nói lại thì chị sẽ nói, còn không thì mn đi vào thực hành luôn nhé<br>
+        position : hiểu đơn giản là vị trí
+        static: phụ thuộc vào luồng của trang : trang là cha, không thể thêm cho nó thông số về vị trí nào khác: đây là cành củi khô trôi sông nha<br>
+        fixed: cũng có cha là trang nhưng nó ngược lại với static là nó sẽ chỉ giữ nguyên ở vị trí cố định đó thôi cho dù có cuộn đi đâu, có thể cho nó các thuộc tính top left right tuỳ ý<br>
+        relative: mình sẽ đặt cho nó 1 vị trí cố định: đây là cha của các con phía sau; relative này đồng thời cx là con của trang máy tính,  có thể thêm rất nhiều thông số cho nó như left right,...<br>
+        absolute: con của phần tử relative gần nhất, chứa nó , lúc này nó sẽ chỉ có thể di chuyển trong cha mà thôi, các thuộc tính top, left ,right sẽ được tính từ viền ngoài của relative.<br>
+        sticky: là phần tử giống như thanh công cụ của word,... Cho dù mình cuộn đến đâu thì nó vẫn dính ở trên đó, ứng dụng cho việc làm cái menu cho trang web . Lưu ý trình duyệt safari phải dùng.<br>
+        position: -webkit-sticky; /* Safari */<br>
+        * nếu như không có phần tử cha relative chứa nó thì nó sẽ tự động cho cả trang làm cha<br>
+        Cách hiểu đơn giản là : có 1 cha chứa rất nhiều con nhỏ bên trong. Các thuộc tính này sinh ra là để tạo mối quan hệ giữa cha con ấy, để tạo lên bố cục cho trang web và các phần tử trong trang.<br>
+    </p>
+ 
+</body>
+</html>

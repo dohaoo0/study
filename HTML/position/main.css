@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 30px;
+    background-color:blue;
+    height: 100px;
+}
+
+.navbar .navbar_wr{
+    position: relative;
+    top: 10px;;
+    left:0;
+    padding: 10px;
+    background-color:green;
+}
+
+.navbar .navbar_wr .box{
+    width: 25%;
+    height: 100%;    
+}
+
+.navbar .navbar_wr .logo{
+    position:absolute;
+    background-color: yellow;
+    left:50%;
+    top: 10px;
+}
+
+.navbar .navbar_wr .home{
+    position:static;
+    background-color:red;
+
+    
+}
+
+.navbar .navbar_wr .search{
+    position: fixed;
+    background-color:orange;
+    max-height: 100px;
+    top:10px
+}
