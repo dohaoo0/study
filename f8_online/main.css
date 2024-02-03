@@ -1,0 +1,19 @@
+/* external */
+/* h1{
+    color:blue;
+    font-size: 100px
+} */
+/* ID & class */
+/* #first-heading {
+    color:red;
+    font-size: 20px;
+} */
+#abc1{
+    color: greenOko;
+    font-size: 20px;
+}
+
+.second-heading {
+    color: brown;
+    font-size: 20px;
+}
